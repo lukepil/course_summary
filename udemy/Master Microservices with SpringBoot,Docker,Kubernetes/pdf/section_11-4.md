@@ -18,9 +18,9 @@ Kafka와 RabbitMQ 간의 차이점도 언급되며, Kafka는 대규모 스트리
 
 ## 중요 부분:
 
-	1.	Spring Cloud Function: 비즈니스 로직을 자바 함수로 구현하여 독립적으로 실행할 수 있으며, 이를 통해 서버리스 환경에서 효율적인 서비스 확장을 지원합니다. 각 함수는 Supplier, Function, Consumer로 구성되며, 함수 조합을 통해 복잡한 로직을 처리할 수 있습니다.
-	2.	Kafka와 RabbitMQ의 역할: Kafka는 대규모 스트리밍 데이터 처리에 강점을 지닌 플랫폼으로, 대용량 데이터를 고속으로 처리하며, 분산형 아키텍처를 통해 데이터 복제를 지원합니다. 반면, RabbitMQ는 복잡한 라우팅과 메시지 브로커 역할에 적합하며, 여러 서비스 간의 비동기 통신을 관리합니다.
-	3.	StreamBridge와 Spring Cloud Stream: Spring Cloud Stream을 통해 이벤트 기반 데이터를 관리하고, StreamBridge를 사용하여 각 이벤트를 적절한 출력 바인딩으로 전달합니다. 이를 통해 서비스 간의 데이터를 효율적으로 주고받을 수 있습니다.
+ 1. Spring Cloud Function: 비즈니스 로직을 자바 함수로 구현하여 독립적으로 실행할 수 있으며, 이를 통해 서버리스 환경에서 효율적인 서비스 확장을 지원합니다. 각 함수는 Supplier, Function, Consumer로 구성되며, 함수 조합을 통해 복잡한 로직을 처리할 수 있습니다.
+ 2. Kafka와 RabbitMQ의 역할: Kafka는 대규모 스트리밍 데이터 처리에 강점을 지닌 플랫폼으로, 대용량 데이터를 고속으로 처리하며, 분산형 아키텍처를 통해 데이터 복제를 지원합니다. 반면, RabbitMQ는 복잡한 라우팅과 메시지 브로커 역할에 적합하며, 여러 서비스 간의 비동기 통신을 관리합니다.
+ 3. StreamBridge와 Spring Cloud Stream: Spring Cloud Stream을 통해 이벤트 기반 데이터를 관리하고, StreamBridge를 사용하여 각 이벤트를 적절한 출력 바인딩으로 전달합니다. 이를 통해 서비스 간의 데이터를 효율적으로 주고받을 수 있습니다.
 
 ## 결론:
 

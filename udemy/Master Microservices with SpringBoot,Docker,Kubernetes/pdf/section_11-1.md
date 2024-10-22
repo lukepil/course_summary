@@ -16,9 +16,9 @@ Spring Cloud Function을 사용하면 Supplier, Function, Consumer와 같은 자
 
 ## 중요 부분:
 
-	1.	Spring Cloud Function을 사용한 함수 생성 및 조합: 여러 함수를 결합하여 복잡한 비즈니스 로직을 구현하고, 이들을 서버리스 환경에 배포할 수 있습니다.
-	2.	Spring Cloud Stream을 통한 바인딩: 입력 및 출력 데이터를 처리하는 바인딩을 정의하고, 메시징 시스템과 연동하여 데이터 흐름을 관리할 수 있습니다.
-	3.	RabbitMQ 및 Kafka 연동: Spring Cloud Stream과 메시징 시스템을 연동하여 비동기 이벤트 기반 통신을 처리할 수 있습니다.
+ 1. Spring Cloud Function을 사용한 함수 생성 및 조합: 여러 함수를 결합하여 복잡한 비즈니스 로직을 구현하고, 이들을 서버리스 환경에 배포할 수 있습니다.
+ 2. Spring Cloud Stream을 통한 바인딩: 입력 및 출력 데이터를 처리하는 바인딩을 정의하고, 메시징 시스템과 연동하여 데이터 흐름을 관리할 수 있습니다.
+ 3. RabbitMQ 및 Kafka 연동: Spring Cloud Stream과 메시징 시스템을 연동하여 비동기 이벤트 기반 통신을 처리할 수 있습니다.
 
 ## 결론:
 

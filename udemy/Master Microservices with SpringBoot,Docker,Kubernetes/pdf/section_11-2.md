@@ -16,9 +16,9 @@
 
 ## 중요 부분:
 
-	1.	StreamBridge를 사용하여 이벤트 생성: Spring Cloud Stream에서 StreamBridge를 사용하여 데이터를 바인딩된 출력으로 보낼 수 있습니다.
-	2.	Apache Kafka vs RabbitMQ: Kafka는 대용량 스트리밍 데이터에 적합하고, RabbitMQ는 복잡한 라우팅 요구 사항에 적합합니다.
-	3.	이벤트 소비 함수 정의: updateCommunication과 같은 소비 함수를 통해 이벤트를 수신하고 처리합니다.
+ 1. StreamBridge를 사용하여 이벤트 생성: Spring Cloud Stream에서 StreamBridge를 사용하여 데이터를 바인딩된 출력으로 보낼 수 있습니다.
+ 2. Apache Kafka vs RabbitMQ: Kafka는 대용량 스트리밍 데이터에 적합하고, RabbitMQ는 복잡한 라우팅 요구 사항에 적합합니다.
+ 3. 이벤트 소비 함수 정의: updateCommunication과 같은 소비 함수를 통해 이벤트를 수신하고 처리합니다.
 
 ## 결론:
 
